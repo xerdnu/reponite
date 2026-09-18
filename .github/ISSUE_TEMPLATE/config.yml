@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💡 Feature request or idea
+    url: https://github.com/xerdnu/reponite/discussions/categories/ideas
+    about: Request a feature or share an idea — and upvote others. (Discussions)
+  - name: ❓ Questions and help
+    url: https://github.com/xerdnu/reponite/discussions/categories/q-a
+    about: Ask here and search past answers. (Discussions)
+  - name: 📧 Account, sign-in or credit problems
+    url: mailto:hello@netblast.se
+    about: Anything tied to your account — email us privately. Don't post private links here.
+  - name: 🔒 Report a security issue
+    url: mailto:security@netblast.se
+    about: Please report vulnerabilities privately, never as a public issue.
