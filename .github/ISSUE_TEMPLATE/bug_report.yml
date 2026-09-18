@@ -1,0 +1,53 @@
+name: 🐛 Bug report
+description: Something on Reponite isn't working right
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report! **This is public** — don't paste closed-testing links, TestFlight invites, tester logins, or screenshots showing your account or other people's email addresses. Email **hello@netblast.se** for anything account-specific.
+
+        Reporting a **user, an app or a piece of feedback**? Use the Report button on that page instead — it reaches us privately, with the context attached.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, and what went wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: false
+  - type: input
+    id: where
+    attributes:
+      label: Where on the site?
+      placeholder: e.g. Discover, a campaign page, Testing a product, Add product, Settings
+    validations:
+      required: false
+  - type: input
+    id: url
+    attributes:
+      label: Page address
+      description: Only if it's a public page. Leave it out if the link is to something unreleased.
+      placeholder: e.g. https://reponite.com/discover?sort=new
+    validations:
+      required: false
+  - type: input
+    id: env
+    attributes:
+      label: Browser / device
+      placeholder: e.g. Chrome on Windows, Safari on iPhone
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Release
+      description: The line at the bottom of Settings, e.g. "Reponite · Release 1.0.10".
+      placeholder: e.g. 1.0.10
+    validations:
+      required: false
