@@ -23,15 +23,6 @@ Never paste:
 
 For anything tied to your account, use the private channels below.
 
-## 🚩 Reporting a user, an app or a report
-
-Use the **Report** button on the page itself — the app page, the campaign, or the
-individual feedback. It reaches us with the context attached, and it stays private.
-Naming someone in a public issue does not.
-
-That includes anything sold as testing but meant to trade ratings, reviews or
-installs. Reponite is not an exchange, and that rule is enforced.
-
 ## 📧 Private support
 
 - **Account or sign-in problems, credits, anything about your own data** → **hello@netblast.se**
